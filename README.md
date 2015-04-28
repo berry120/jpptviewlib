@@ -1,5 +1,7 @@
-# jpptviewlib
-JNA Java wrapper around the PPTViewLib library originally developed for OpenLP (https://github.com/Boddlnagg/PowerpointViewerLib/tree/master/pptviewlib)
+# JPPTViewLib
+
+JPPTViewLib provides an easy way to control Powerpoint viewer from Java. It is essentially a rather light JNA based wrapper of [PPTViewLib](http://bazaar.launchpad.net/~openlp-core/openlp/trunk/view/head:/openlp/plugins/presentations/lib/pptviewlib/), a plugin developed for OpenLP to enable it to display powerpoint presentations.
+ (https://github.com/Boddlnagg/PowerpointViewerLib/tree/master/pptviewlib)
 
 **Usage Example**:
 
