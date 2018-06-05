@@ -4,7 +4,7 @@
 
 JPPTViewLib provides an easy way to control Powerpoint viewer from Java. It is essentially a rather light JNA based wrapper of [PPTViewLib](http://bazaar.launchpad.net/~openlp-core/openlp/trunk/view/head:/openlp/plugins/presentations/lib/pptviewlib/), a plugin developed for OpenLP to enable it to display powerpoint presentations.
 
-You *must* have `pptviewlib.dll` present on your system and set `-Djna.library.path=C:\your\path\to\dll`, otherwise you'll find yourself buried in a `UnsatisfiedLinkError`. You may use the DLL here or build from the OpenLP source; the one here (in the lib folder) is recommended since it has a minor modification to guard against passing `null` as a parameter to preview path.
+The released jar contains pptviewlib.dll; it has a minor modification to guard against passing `null` as a parameter to preview path.
 
 **Usage Example**:
 
