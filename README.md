@@ -9,13 +9,11 @@ The released jar contains pptviewlib.dll; it has a minor modification to guard a
 ## Setup
 
 ### Maven
-```
-<dependency>
-  <groupId>org.quelea.jpptviewlib</groupId>
-  <artifactId>jpptviewlib</artifactId>
-  <version>1.0</version>
-</dependency>
-```
+    <dependency>
+      <groupId>org.quelea.jpptviewlib</groupId>
+      <artifactId>jpptviewlib</artifactId>
+      <version>1.0</version>
+    </dependency>
 
 ### Gradle
     compile 'org.quelea.jpptviewlib:jpptviewlib:1.0'
