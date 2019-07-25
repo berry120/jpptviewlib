@@ -6,7 +6,21 @@ JPPTViewLib provides an easy way to control Powerpoint viewer from Java. It is e
 
 The released jar contains pptviewlib.dll; it has a minor modification to guard against passing `null` as a parameter to preview path.
 
-**Usage Example**:
+## Setup
+
+### Maven
+```
+<dependency>
+  <groupId>org.quelea.jpptviewlib</groupId>
+  <artifactId>jpptviewlib</artifactId>
+  <version>1.0</version>
+</dependency>
+```
+
+### Gradle
+    compile 'org.quelea.jpptviewlib:jpptviewlib:1.0'
+
+## Usage
 
 ```
 String pptPath = "C:\\My Presentation.ppt";
